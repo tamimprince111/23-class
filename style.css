@@ -1,0 +1,55 @@
+*{
+
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+
+}
+
+
+.container{
+
+display: grid;
+grid-template-columns: 1rf 2fr 2fr;
+grid-template-rows: 80px 250px 120px 80px 30px;
+gap: 15px;
+padding: 50px;
+
+}
+
+.content{
+background-color: rgb(133, 147, 158);
+
+border-radius: 10px;
+overflow: hidden;
+
+
+
+}
+
+
+#nav{
+
+grid-column: 1/4;
+
+}
+
+#main{
+
+grid-column: 2/4;
+background-color: rgb(200, 214, 214);
+
+}
+
+#side{
+
+grid-row: 2/4;
+background-color: rgb(200, 200, 209);
+
+}
+
+#foot{
+    grid-column: 1/4;
+    background-color: rgb(186, 186, 201);
+}
+
